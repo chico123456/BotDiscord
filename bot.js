@@ -4,7 +4,7 @@ const Discord = require('discord.js');
 const bot = new Discord.Client();
 
 
-const token = 'NzU3OTA2MjgxMDMyODQzMzY0.X2nNOg.uLnckCe4FN2PEpncxn47aLVuQxk';
+const token = 'NzU3OTA2MjgxMDMyODQzMzY0.2nOg.uLnke4N2PEpncxn47aLVuQxk';
 
 bot.on('guildMemberAdd', member => {
     // Acha o canal de texto para ser escrito
