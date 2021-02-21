@@ -4,9 +4,9 @@ const Discord = require('discord.js');
 const bot = new Discord.Client();
 
 
-const token = 'NzU3OTA2MjgxMDMyODQzMzY0.2nOg.uLnke4N2PEpncxn47aLVuQxk';
+const token = 'NzU3OTA2MjgxMDMyODQzMzY0.X2nNOg.Uy6oxvLoDREcR-2Dd8fp0-Vx-ww';
 
-bot.on('guildMemberAdd', member => {
+/*bot.on('guildMemberAdd', member => {
     // Acha o canal de texto para ser escrito
     const channel = member.guild.channels.cache.find(ch => ch.name === 'geral');
     // Caso não tenha um canal com o nome ele retorna null
@@ -26,6 +26,6 @@ bot.on('guildMemberAdd', member => {
             message.channel.send(`${message.author}, 
             Siga o link para mais redações: https://sites.google.com/inf.ufsm.br/pet-si`);
         }
-    });
+    });*/
   
 bot.login(token);
